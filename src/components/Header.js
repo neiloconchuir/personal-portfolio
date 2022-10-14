@@ -1,22 +1,28 @@
-import './Header.css';
-import Button from './Button';
+import "./Header.css";
+import Button from "./Button";
 
 export default function Header() {
   return (
-    <div className="header">
-      <div className="logo">
-        <img src="../public/Nplaceholder" alt="" />
-      </div>
-      <div className="menu">
+    <div className="Header">
+      <div className="Header-name">Neil O'Conchuir</div>
+      <div className="Header-menu">
         <div className="list">
           <ul>
-            <li>01. About</li>
-            <li>02. Experience</li>
-            <li>03. Work</li>
-            <li>04. Contact</li>
+            <li>
+              <span>01.</span> About
+            </li>
+            <li>
+              <span>02.</span> Experience
+            </li>
+            <li>
+              <span>03.</span> Work
+            </li>
+            <li>
+              <span>04.</span> Contact
+            </li>
           </ul>
         </div>
-        <Button />
+        <Button text="Resume" />
       </div>
     </div>
   );
