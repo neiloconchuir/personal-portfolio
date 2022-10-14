@@ -1,4 +1,5 @@
 import './Header.css';
+import Button from './Button';
 
 export default function Header() {
   return (
@@ -9,15 +10,13 @@ export default function Header() {
       <div className="menu">
         <div className="list">
           <ul>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <li>01. About</li>
+            <li>02. Experience</li>
+            <li>03. Work</li>
+            <li>04. Contact</li>
           </ul>
         </div>
-        <div className="button">
-          <button>Resume</button>
-        </div>
+        <Button />
       </div>
     </div>
   );
