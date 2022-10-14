@@ -3,10 +3,10 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <header className="Header">
       <div className="Header-name">Neil O'Conchuir</div>
       <div className="Header-menu">
-        <div className="list">
+        <nav className="list">
           <ul>
             <li>
               <span>01.</span> About
@@ -21,9 +21,9 @@ export default function Header() {
               <span>04.</span> Contact
             </li>
           </ul>
-        </div>
+        </nav>
         <Button text="Resume" />
       </div>
-    </div>
+    </header>
   );
 }

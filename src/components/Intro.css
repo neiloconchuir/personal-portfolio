@@ -1,28 +1,33 @@
 .Intro {
  max-width: 1000px;
- margin: 300px auto;
  padding: 0 30px;
+ margin: 200px auto;
 }
 
-.Intro-para-one {
+.Intro h4 {
   font-family: var(--button-font);
   color: var(--green);
   font-size: 1.2rem;
+  line-height: 0.2em;
   
 }
 
-.Intro-bold-one {
+.Intro h2 {
   color: var(--lightest-slate);
   font-size: 5rem;
   font-weight: 800;
+    line-height: 0em;
 }
 
-.Intro-bold-two {
+.Intro h3 {
   font-size: 5rem;
   font-weight: 800;
+    line-height: 0em;
 }
 
-.Intro-para-two {
+.Intro p {
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
+  line-height: 0.2em;
+  padding-bottom: 30px;
 }

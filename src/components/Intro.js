@@ -1,25 +1,14 @@
-import './Intro.css';
-import Button from './Button';
+import "./Intro.css";
+import Button from "./Button";
 
 export default function Intro() {
   return (
-    <div className="Intro">
-      <div className="Intro-para-one">
-        Hi, my name is
-      </div>
-      <div className="Intro-bold-one">
-        Neil O'Conchuir.
-      </div>
-      <div className="Intro-bold-two">
-        I build things for the web.
-      </div>
-      <div className="Intro-para-two">
-        I am a junior front-end sofware engineer 
-      </div>
-      <div className="Intro-button">
-        <Button text="Check out my certs!" />
-      </div>
-    </div>
-
-  )
+    <section className="Intro">
+      <h4>Hi, my name is</h4>
+      <h2>Neil O'Conchuir.</h2>
+      <h3>I build things for the web.</h3>
+      <p>I am a junior front-end sofware engineer</p>
+      <Button text="Check out my certs!" />
+    </section>
+  );
 }
