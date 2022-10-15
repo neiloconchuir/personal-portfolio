@@ -1,4 +1,10 @@
+.Picture {
+  background-color: var(--green);
+}
+
 .Picture img {
  height: 200px;
  width:auto;
+object-fit: cover;
+  opacity: 0.8;
 }
