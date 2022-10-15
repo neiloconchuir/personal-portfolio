@@ -22,7 +22,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <Button text="Resume" />
+          <Button text="Resume" />
       </div>
     </header>
   );

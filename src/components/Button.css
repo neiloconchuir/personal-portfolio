@@ -1,12 +1,12 @@
 button {
   cursor: pointer;
-  border-radius: 4px;
-  padding: 10px 15px;
-  font-family: var(--button-font);
-  margin: 20px 50px 25px 20px;
-  border-color: var(--green);
-  border-width: thin;
-  color: var(--green);
-  background-color: var(--navy);
-  font-size: 1rem;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-family: var(--button-font);
+    
+    border-color: var(--green);
+    border-width: thin;
+    color: var(--green);
+    background-color: var(--navy);
+    font-size: 1rem;
 }
