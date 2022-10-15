@@ -22,15 +22,15 @@
   align-items: center;
 }
 
-ul {
+.Header ul {
   list-style: none;
 }
 
-li {
+.Header li {
   display: inline;
   margin: 20px;
 }
 
-span {
+.Header span {
   color: var(--green);
 } 

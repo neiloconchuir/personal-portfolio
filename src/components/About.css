@@ -2,6 +2,7 @@
   max-width: 1000px;
   padding: 0 30px;
   margin: 400px auto;
+  display: flex;
 }
 
 .About h2 {
