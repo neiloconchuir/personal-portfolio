@@ -22,3 +22,8 @@ html {
   background: var(--navy);
   color: var(--slate);
 }
+
+p {
+    font-family: var(--paragraph-font);
+      font-size: 1.2rem;
+}
