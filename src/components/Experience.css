@@ -1,0 +1,17 @@
+.Experience {
+  max-width: 1000px;
+  padding: 0 30px;
+  margin: 400px auto;
+  display: flex;
+}
+
+.Experience h2 {
+  font-family: var(--button-font);
+    font-size: 2rem;
+    color: var(--lightest-slate);
+}
+
+.Experience span {
+  color: var(--green);
+    font-size: 1.5rem;
+}

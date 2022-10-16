@@ -14,7 +14,9 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <span>02.</span> Experience
+              <a href="#Experience">
+                <span>02.</span> Experience
+              </a>
             </li>
             <li>
               <a href="#Work">
