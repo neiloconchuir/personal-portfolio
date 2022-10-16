@@ -9,20 +9,26 @@ export default function Header() {
         <nav className="list">
           <ul>
             <li>
-              <span>01.</span> About
+              <a href="#About">
+                <span>01.</span> About
+              </a>
             </li>
             <li>
               <span>02.</span> Experience
             </li>
             <li>
-              <span>03.</span> Work
+              <a href="#Work">
+                <span>03.</span> Work
+              </a>
             </li>
             <li>
-              <span>04.</span> Contact
+              <a href="#Contact">
+                <span>04.</span> Contact
+              </a>
             </li>
           </ul>
         </nav>
-          <Button text="Resume" />
+        <Button text="Resume" />
       </div>
     </header>
   );

@@ -3,7 +3,7 @@ import Picture from "./Picture";
 
 export default function About() {
   return (
-    <div className="About">
+    <div className="About" id="About">
       <div className="About-info">
       <h2>
         <span>01.</span> About Me

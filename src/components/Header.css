@@ -13,7 +13,6 @@
 
 .Header-name {
   font-size: 1.5rem;
-  
   color: var(--green);
 }
 
@@ -34,3 +33,8 @@
 .Header span {
   color: var(--green);
 } 
+
+.Header a {
+  text-decoration: none;
+  color: var(--slate);
+}
