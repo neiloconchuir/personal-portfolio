@@ -2,8 +2,8 @@ import './Button.css';
 
 export default function Button(props) {
   return (
-    <div className="button">
+    <section className="button">
       <button>{props.text}</button>
-    </div>
+    </section>
   );
 }

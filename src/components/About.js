@@ -3,7 +3,7 @@ import Picture from "./Picture";
 
 export default function About() {
   return (
-    <div className="About" id="About">
+    <section className="About" id="About">
       <div className="About-info">
       <h2>
         <span>01.</span> About Me
@@ -37,6 +37,6 @@ export default function About() {
       <div className="About-picture">
         <Picture />
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,0 +1,15 @@
+.Email {
+  float: right;
+    position: fixed;
+    
+      bottom: 0;
+      right: 0;
+}
+
+.Email p {
+  writing-mode: vertical-rl;
+  font-family: var(--button-font);
+  color: var(--green);
+  padding: 15px;
+  margin: 15px;
+}

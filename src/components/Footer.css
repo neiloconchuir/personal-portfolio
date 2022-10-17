@@ -11,4 +11,6 @@
 
 .Footer a {
   color: var(--green);
+  text-decoration: none;
+  cursor: pointer;
 }

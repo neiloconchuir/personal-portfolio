@@ -1,8 +1,11 @@
 import './Footer.css'
+import Icons from './Icons';
+import Email from './Email';
 
 export default function Footer() {
   return (
-    <section className="Footer">
+    <footer className="Footer">
+      <Icons />
       <p>
         Built by Neil O'Conchuir,{" "}
         <a
@@ -21,6 +24,7 @@ export default function Footer() {
           hosted on Netlify
         </a>
       </p>
-    </section>
+      <Email />
+    </footer>
   );
 }
