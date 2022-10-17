@@ -16,7 +16,7 @@ export default function About() {
         </p>
         <p>
           For the best part of 20 years I have been working in a client facing
-          roll...
+          role...
         </p>
         <p>Here are some technologies I have been working with:</p>
         <div className="About-list">

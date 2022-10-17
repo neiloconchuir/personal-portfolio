@@ -3,6 +3,8 @@
   padding: 0 30px;
   margin: 400px auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .About h2 {
@@ -37,5 +39,6 @@
   display: list-item;
   margin: 8px;
   font-size: 1.1rem;
+  font-family: var(--button-font);
 }
 

@@ -1,0 +1,57 @@
+.Project {
+  display: flex;
+  max-width: 1000px;
+}
+
+.Project h4 {
+  color: var(--green);
+  font-family: var(--button-font);
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.Project h3 {
+  color: var(--lightest-slate);
+  font-size: 2rem;
+  padding: 5px;
+  margin: 5px;
+}
+
+.Project p {
+  font-size: 1rem;
+  word-spacing: 7px;;
+}
+
+.Project-image {
+  width: 500px;
+  background: red;
+}
+
+.Project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Project-details p {
+  text-align: right;
+  max-width: 350px;
+  background: var(--light-navy);
+}
+
+.Project-details ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.Project-details li {
+  padding: 0 5px;
+}
+
+.highlight {
+  color: var(--light-slate);
+  padding: 10px;
+  height: 22px;
+
+}
