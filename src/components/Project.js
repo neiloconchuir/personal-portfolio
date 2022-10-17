@@ -2,7 +2,7 @@ import React from "react";
 import "./project.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Project() {
   return (
@@ -25,7 +25,7 @@ export default function Project() {
         </ul>
         <div className="Project-details-links">
           <a href="https://github.com/neiloconchuir/react-weather-app">
-            <FontAwesomeIcon icon={faGithubAlt} className="highlight" />
+            <FontAwesomeIcon icon={faGithub} className="highlight" />
           </a>
           <a href="https://enchanting-wisp-e19296.netlify.app/">
             <FontAwesomeIcon

@@ -1,0 +1,19 @@
+.Icons {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.Icons ul {
+  list-style-type: none;
+}
+
+.Icons li {
+  padding: 8px;
+}
+
+.hightlight {
+  color: var(--light-slate);
+  height: 22px;
+}

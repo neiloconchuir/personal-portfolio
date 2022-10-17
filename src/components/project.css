@@ -50,7 +50,7 @@
 }
 
 .highlight {
-  color: var(--light-slate);
+  color: var(--lightest-slate);
   padding: 10px;
   height: 22px;
 
