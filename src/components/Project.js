@@ -10,18 +10,16 @@ export default function Project() {
       <div className="Project-image"></div>
       <div className="Project-details">
         <h4>Featured Project</h4>
-        <h3>Halcyon Theme</h3>
+        <h3>React Weather App</h3>
         <p>
-          A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and
-          more. Available on Visual Studio Marketplace, Package Control, Atom
-          Package Manager, and npm.
+          A minimal, responsive React application providing current weather and forecasting, hosted on Netlify.
+          Making use of the free openweather API, location searches will return up-to-date information. 
         </p>
         <ul>
           <li>VS Code</li>
-          <li>Sublime Text</li>
-          <li>Atom</li>
-          <li>iTerm2</li>
-          <li>Hyper</li>
+          <li>React</li>
+          <li>OpenWeatherApp API</li>
+          <li>GitHub</li>
         </ul>
         <div className="Project-details-links">
           <a href="https://github.com/neiloconchuir/react-weather-app">

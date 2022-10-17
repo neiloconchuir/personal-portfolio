@@ -18,6 +18,10 @@
   font-size: 1.5rem;
 }
 
+.About p {
+  padding-right: 18px;
+}
+
 .About-list {
   display: flex;
 }

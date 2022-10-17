@@ -14,13 +14,14 @@
 .Project h3 {
   color: var(--lightest-slate);
   font-size: 2rem;
-  padding: 5px;
-  margin: 5px;
+  padding: 5px 0;
+  margin: 5px 0;
 }
 
 .Project p {
   font-size: 1rem;
-  word-spacing: 7px;;
+  word-spacing: 7px;
+  padding: 12px 22px 12px 55px;
 }
 
 .Project-image {
