@@ -16,18 +16,18 @@
   color: var(--lightest-slate);
   font-size: 5rem;
   font-weight: 800;
-    line-height: 0em;
+  line-height: 0em;
 }
 
 .Intro h3 {
   font-size: 5rem;
   font-weight: 800;
-    line-height: 0em;
+  line-height: 0em;
 }
 
 .Intro p {
   font-family: var(--paragraph-font);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 0.2em;
   padding-bottom: 30px;
 }
