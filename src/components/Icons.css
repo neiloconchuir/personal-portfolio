@@ -16,3 +16,10 @@
   color: var(--light-slate);
   height: 22px;
 }
+
+@media screen and (max-width: 700px) {
+  section.Icons {
+    align-items: center;
+    position: relative;
+  }
+}

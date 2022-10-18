@@ -29,7 +29,7 @@ export default function About() {
           </ul>
           <ul>
             <li>React</li>
-            <li>Git</li>
+            <li>GitHub</li>
             <li>APIs</li>
           </ul>
         </div>

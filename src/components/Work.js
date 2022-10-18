@@ -30,7 +30,7 @@ export default function Work() {
   return (
     <section className="Work" id="Work">
       <h2>
-        <span>03.</span> Work Projects
+        <span>02.</span> Work Projects
       </h2>
       <Project projects={projects[0]}/>
       <ProjectTwo projects={projects[1]}/>
