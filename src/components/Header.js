@@ -14,18 +14,13 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#Experience">
-                <span>02.</span> Experience
-              </a>
-            </li>
-            <li>
               <a href="#Work">
-                <span>03.</span> Work
+                <span>02.</span> Work
               </a>
             </li>
             <li>
               <a href="#Contact">
-                <span>04.</span> Contact
+                <span>03.</span> Contact
               </a>
             </li>
           </ul>

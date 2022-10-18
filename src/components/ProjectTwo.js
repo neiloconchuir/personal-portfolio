@@ -34,7 +34,9 @@ export default function ProjectTwo(props) {
           </a>
         </div>
       </div>
-      <div className="ProjectTwo-image"></div>
+      <div className="ProjectTwo-image">
+        <div className="ProjectTwo-overlay"></div>
+      </div>
     </section>
   );
 }
