@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 700px) {
   section.Picture {
-    width: fit-content;
-    block-size: fit-content;   
+        width: fit-content;
+        block-size: fit-content;
+        margin: 0 auto;
   }
 }
