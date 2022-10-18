@@ -1,0 +1,60 @@
+.ProjectTwo {
+  display: flex;
+  max-width: 1000px;
+  margin-top: 200px;
+}
+
+.ProjectTwo h4 {
+  color: var(--green);
+  font-family: var(--button-font);
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+
+}
+
+.ProjectTwo h3 {
+  color: var(--lightest-slate);
+  font-size: 2rem;
+  padding: 5px 0;
+  margin: 5px 0;
+  
+}
+
+
+.ProjectTwo-image {
+  background: red;
+  width: 50%;
+  z-index: -1;
+}
+
+.ProjectTwo-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%; 
+}
+
+.ProjectTwo-details p {
+  text-align: left;
+  width: 100%;
+  background: var(--light-navy);
+  font-size: 1rem;
+  padding: 20px 25px;
+  border-radius: 4px;
+}
+
+.ProjectTwo-details ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.ProjectTwo-details li {
+  padding: 0 5px;
+  font-family: var(--button-font);
+}
+
+.highlight {
+  color: var(--lightest-slate);
+  padding: 10px;
+  height: 22px;
+}

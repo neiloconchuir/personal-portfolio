@@ -1,14 +1,13 @@
 import React from "react";
-import "./Project.css";
+import "./ProjectTwo.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-export default function Project(props) {
+export default function ProjectTwo(props) {
   return (
-    <section className="Project">
-      <div className="Project-image"></div>
-      <div className="Project-details">
+    <section className="ProjectTwo">
+      <div className="ProjectTwo-details">
         <h4>Featured Project</h4>
         <h3>{props.projects.title}</h3>
         <p>{props.projects.info}</p>
@@ -19,7 +18,7 @@ export default function Project(props) {
           <li>{props.projects.tech[3]}</li>
           <li>{props.projects.tech[4]}</li>
         </ul>
-        <div className="Project-details-links">
+        <div className="ProjectTwo-details-links">
           <a href={props.projects.links.git} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="highlight" />
           </a>
@@ -35,6 +34,7 @@ export default function Project(props) {
           </a>
         </div>
       </div>
+      <div className="ProjectTwo-image"></div>
     </section>
   );
 }
