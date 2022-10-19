@@ -1,6 +1,5 @@
 import './Work.css';
 import Project from './Project';
-import ProjectTwo from './ProjectTwo';
 import React from 'react';
 
 
@@ -34,7 +33,7 @@ export default function Work() {
       </h2>
       <div className="Work-projects">
         <Project projects={projects[0]} />
-        <ProjectTwo projects={projects[1]} />
+        <Project projects={projects[1]} />
       </div>
     </section>
   );
