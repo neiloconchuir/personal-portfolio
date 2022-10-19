@@ -30,11 +30,13 @@
   font-size: 1rem;
   margin-top: 10;
   padding-bottom: 30px;
+  
 }
 
 .Intro ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   
 }
 
@@ -42,6 +44,5 @@
   margin: 25px;
   font-size: 1rem;
   font-family: var(--button-font);
-  
 }
 
