@@ -28,6 +28,7 @@
 
 .About ul {
   list-style: none;
+  margin-bottom: 50px;
 }
 
 .About ul li::before {

@@ -7,7 +7,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Project(props) {
   return (
     <section className="Project">
-      <div className="Project-image"></div>
+      <div className="Project-image">
+        <div className="Project-overlay"></div>
+      </div>
       <div className="Project-details">
         <h4>Featured Project</h4>
         <h3>{props.projects.title}</h3>
