@@ -1,8 +1,9 @@
 .ProjectTwo {
-  display: flex;
-  max-width: 1000px;
-  margin-top: 200px;
-
+  margin: 20px;
+  padding: 25px;
+  background: var(--light-navy);
+  height:auto;
+  width:300px;
 }
 
 .ProjectTwo h4 {
@@ -21,27 +22,22 @@
   margin: 5px 0; 
 }
 
+.ProjectTwo-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
 
-.ProjectTwo-image {
-  background: red;
-  width: 50%;
-  position: relative;
-  z-index: -1;
+.ProjectTwo-icons-folder {
+  color: var(--lightest-slate);
 }
 
 .ProjectTwo-details {
   display: flex;
   flex-direction: column;
-  width: 50%; 
 }
 
-.ProjectTwo-details p {
-  width: 100%;
-  background: var(--light-navy);
-  font-size: 1rem;
-  padding: 20px 25px;
-  border-radius: 4px;
-}
+
 
 .ProjectTwo-details ul {
   display: flex;
@@ -52,6 +48,7 @@
 .ProjectTwo-details li {
   padding: 0 10px;
   font-family: var(--button-font);
+  
 }
 
 .highlight {

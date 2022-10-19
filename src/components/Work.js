@@ -9,15 +9,15 @@ export default function Work() {
  const projects = [
    {
      title: "React Weather App",
-     info: " A minimal, responsive React application providing current weather and forecasting, hosted on Netlify. Making use of the free openweather API, location searches will return up-to-date information.",
-     tech: ["VS Code", "React", "OpenWeatherApp API", "GitHub", "Bootstrap"],
+     info: " A minimal, responsive React application providing current weather information and five day forecasting, hosted on Netlify.",
+     tech: ["React", "OpenWeather API", "Bootstrap"],
      links: {
        git: "https://github.com/neiloconchuir/react-weather-app",
        website: "https://enchanting-wisp-e19296.netlify.app/",
      },
    },
    {
-     title: "Personal Portfolio Website",
+     title: "Portfolio Website",
      info: " A responsive React website showcasing coding projects undertaken to date, hosted on Netlify.",
      tech: ["VS Code", "React", "GitHub"],
      links: {
@@ -32,8 +32,10 @@ export default function Work() {
       <h2>
         <span>02.</span> Work Projects
       </h2>
-      <Project projects={projects[0]}/>
-      <ProjectTwo projects={projects[1]}/>
+      <div className="Work-projects">
+        <Project projects={projects[0]} />
+        <ProjectTwo projects={projects[1]} />
+      </div>
     </section>
   );
 } 
