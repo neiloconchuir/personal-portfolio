@@ -1,5 +1,4 @@
 import './Contact.css';
-import Button from './Button';
 
 export default function Contact() {
   return (
@@ -10,7 +9,6 @@ export default function Contact() {
       <p>
         I am excited to start my new career as a software developer. Thank you for your time, and I look forward to hearing from you!
       </p>
-      <Button text="Say Hello" />
     </section>
   );
 }

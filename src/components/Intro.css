@@ -33,16 +33,3 @@
   
 }
 
-.Intro ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  
-}
-
-.Intro li {
-  margin: 25px;
-  font-size: 1rem;
-  font-family: var(--button-font);
-}
-

@@ -2,6 +2,7 @@
   display: flex;
   max-width: 1000px;
   margin-top: 200px;
+
 }
 
 .ProjectTwo h4 {
@@ -25,21 +26,7 @@
   background: red;
   width: 50%;
   position: relative;
-  
-}
-
-.ProjectTwo-overlay {
-  background: var(--green);
-  opacity: 30%;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.ProjectTwo-overlay:hover {
- opacity: 0;
+  z-index: -1;
 }
 
 .ProjectTwo-details {

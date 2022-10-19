@@ -1,5 +1,14 @@
 import "./About.css";
 import Picture from "./Picture";
+import {
+  faBootstrap,
+  faCss3,
+  faGithub,
+  faHtml5,
+  faJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function About() {
   return (
@@ -26,19 +35,36 @@ export default function About() {
         <p>Here are some technologies I have been working with:</p>
         <div className="About-list">
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-          <ul>
-            <li>React</li>
-            <li>GitHub</li>
-            <li>APIs</li>
-          </ul>
-          <ul>
-            <li>Bootstrap</li>
-            <li>VS Code</li>
-            <li></li>
+            <li>
+              <FontAwesomeIcon icon={faHtml5} className="highlight" />
+              <br />
+              HTML
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCss3} className="highlight" />
+              <br />
+              CSS
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faJs} className="highlight" />
+              <br />
+              JavaScript
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faBootstrap} className="highlight" />
+              <br />
+              Bootstrap
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faReact} className="highlight" />
+              <br />
+              React
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faGithub} className="highlight" />
+              <br />
+              GitHub
+            </li>
           </ul>
         </div>
       </div>

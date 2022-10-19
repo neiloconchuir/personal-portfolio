@@ -29,6 +29,9 @@
 .About ul {
   list-style: none;
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .About ul li::before {
@@ -42,10 +45,11 @@
 
 .About li {
   display: list-item;
-  margin: 8px;
+  margin: 25px;
   font-size: 1.1rem;
   font-family: var(--button-font);
 }
+
 
 @media screen and (max-width: 700px) {
   section.About {
