@@ -1,4 +1,4 @@
-import './Picture.css';
+import './picture.css';
 
 export default function Picture() {
   return (

@@ -1,4 +1,4 @@
-import './Footer.css'
+import './footer.css'
 import Icons from './Icons';
 import Email from './Email';
 

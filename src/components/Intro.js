@@ -1,5 +1,5 @@
 import Button from "./Button";
-import "./Intro.css";
+import "./intro.css";
 
 export default function Intro() {
   return (

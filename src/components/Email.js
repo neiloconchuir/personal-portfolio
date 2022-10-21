@@ -1,4 +1,4 @@
-import './Email.css';
+import './email.css';
 
 export default function Email() {
   return (

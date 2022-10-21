@@ -1,4 +1,4 @@
-import './Work.css';
+import './work.css';
 import Project from './Project';
 import React from 'react';
 
