@@ -1,0 +1,52 @@
+.About {
+  max-width: 1000px;
+  padding: 0 30px;
+  margin: 400px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About h2 {
+  font-family: var(--button-font);
+  font-size: 2rem;
+  color: var(--lightest-slate);
+}
+
+.About span {
+  color: var(--green);
+  font-size: 1.5rem;
+}
+
+.About p {
+  padding-right: 18px;
+}
+
+.About-list {
+  display: flex;
+}
+
+.About ul {
+  list-style: none;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.About li {
+  display: list-item;
+  margin: 25px;
+  font-size: 1.1rem;
+  font-family: var(--button-font);
+}
+
+.About .highlight {
+  color: var(--green);
+}
+
+@media screen and (max-width: 700px) {
+  section.About {
+    display: block
+  }
+}

@@ -1,0 +1,11 @@
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-family: var(--button-font);
+  border-color: var(--green);
+  border-width: thin;
+  color: var(--green);
+  background-color: var(--navy);
+  font-size: 1rem;
+}

@@ -1,0 +1,16 @@
+.Footer {
+  padding: 0 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.Footer p {
+  font-family: var(--button-font);
+  font-size: 1rem;
+}
+
+.Footer a {
+  color: var(--green);
+  text-decoration: none;
+  cursor: pointer;
+}
