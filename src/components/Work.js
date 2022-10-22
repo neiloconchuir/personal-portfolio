@@ -24,15 +24,7 @@ export default function Work() {
        website: "https://clever-sunburst-be636a.netlify.app",
      },
    },
-   {
-     title: "React Dictionary App",
-     info: "A responsive React application providing definitions and related pictures of searched words, hosted on Netlify.",
-     tech: ["React", "multiple APIs", "Bootstrap"],
-     links: {
-       git: "https://github.com/neiloconchuir/react-dictionary-app",
-       website: "https://starlit-blini-2955cc.netlify.app",
-     },
-   },
+   
  ];
 
   return (
@@ -43,7 +35,7 @@ export default function Work() {
       <div className="Work-projects">
         <Project projects={projects[0]} />
         <Project projects={projects[1]} />
-        <Project projects={projects[2]} />
+        
       </div>
     </section>
   );
