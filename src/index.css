@@ -21,6 +21,7 @@
 html {
   background: var(--navy);
   color: var(--slate);
+  scroll-behavior: smooth;
 }
 
 p {

@@ -1,4 +1,3 @@
-import Button from "./Button";
 import "./intro.css";
 
 export default function Intro() {
@@ -12,12 +11,11 @@ export default function Intro() {
         in Web Development with React, JavaScript, CSS and HTML. Though new to
         the tech industry I have nearly 20 years experience working in a
         demanding, client facing environment, delivering complicated injury
-        rehabilitation protocols. Recently I have been working towards
-        Codecadamys FullStack Software Developer pathway, and have completed
-        their Front-end Pathway. I am continuing to compete personal projects as
-        I try and enter the tech workplace.
+        rehabilitation protocols. Recently I have been working towards the
+        Codecadamy FullStack Software Developer pathway. I am continuing to 
+        compete personal projects as I try and enter the tech workplace.
       </p>
-      <Button text="Resume" />
+      
     </section>
   );
 }
