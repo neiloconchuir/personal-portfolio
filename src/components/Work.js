@@ -21,10 +21,9 @@ export default function Work() {
      tech: ["VS Code", "React", "GitHub"],
      links: {
        git: "https://github.com/neiloconchuir/personal-portfolio",
-       website: "https://clever-sunburst-be636a.netlify.app",
+       website: "https://neiloconchuir.com/",
      },
    },
-   
  ];
 
   return (
