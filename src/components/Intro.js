@@ -7,8 +7,8 @@ export default function Intro() {
       <h2 className="Intro-name">Neil O'Conchuir.</h2>
       <h3 className="Intro-statement">I build things for the web.</h3>
       <p>
-        I am an Entry level/Junior Front-end Software Engineer with experience
-        in Web Development with React, JavaScript, CSS and HTML. Though new to
+        I am an Entry level/Junior Software Developer with experience
+        using React, JavaScript, CSS and HTML. Though new to
         the tech industry I have nearly 20 years experience working in a
         demanding, client facing environment, delivering complicated injury
         rehabilitation protocols. Recently I have been working towards the
