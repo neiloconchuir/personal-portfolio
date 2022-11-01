@@ -24,6 +24,15 @@ export default function Work() {
        website: "https://neiloconchuir.com/",
      },
    },
+   {
+     title: "Netflix Project",
+     info: "A front-end Netflix replication project, hosted on Netlify.",
+     tech: ["VS Code", "React", "GitHub"],
+     links: {
+       git: "https://github.com/neiloconchuir/netflix-project",
+       website: "https://effulgent-dragon-b879a2.netlify.app/",
+     },
+   },
  ];
 
   return (
@@ -34,7 +43,7 @@ export default function Work() {
       <div className="Work-projects">
         <Project projects={projects[0]} />
         <Project projects={projects[1]} />
-        
+        <Project projects={projects[2]} />
       </div>
     </section>
   );
